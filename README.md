@@ -1,54 +1,88 @@
-<h2>Hey 👋, I'm Mariam</h2>
+<h1>FastAPI Backend Project 🚀</h1>
 
 <p>
-I'm a Computer / Software Engineering student passionate about 
-<strong>networking systems, backend development, and machine learning</strong>.
-I enjoy building small projects, experimenting with system designs, and learning how real-world networks and applications work.
+A backend application built using <strong>FastAPI</strong> to practice modern backend development concepts,
+including REST APIs, database integration, authentication, and CRUD operations.
 </p>
+
+<h2>🛠️ Technologies Used</h2>
+
+<ul>
+<li>Python</li>
+<li>FastAPI</li>
+<li>SQLAlchemy ORM</li>
+<li>SQLite Database</li>
+<li>Pydantic</li>
+<li>JWT Authentication</li>
+<li>Git & GitHub</li>
+</ul>
+
+<h2>✨ Features</h2>
+
+<ul>
+<li>Create, read, update, and delete blog posts (CRUD operations)</li>
+<li>User registration and authentication</li>
+<li>Password hashing using bcrypt</li>
+<li>JWT-based login authentication</li>
+<li>Database models and relationships using SQLAlchemy</li>
+<li>API documentation using Swagger UI</li>
+</ul>
+
+<h2>📂 Project Structure</h2>
+
+<pre>
+FastAPI/
+│
+├── blog/
+│   ├── routers/
+│   ├── repository/
+│   ├── models.py
+│   ├── schemas.py
+│   ├── database.py
+│   └── main.py
+│
+├── requirements.txt
+└── README.md
+</pre>
+
+<h2>▶️ Running the Project</h2>
+
+<p>Clone the repository:</p>
+
+<pre>
+git clone https://github.com/samahatta474-sketch/FastAPI.git
+</pre>
+
+<p>Create a virtual environment:</p>
+
+<pre>
+python -m venv env
+</pre>
+
+<p>Install dependencies:</p>
+
+<pre>
+pip install -r requirements.txt
+</pre>
+
+<p>Run the server:</p>
+
+<pre>
+uvicorn main:app --reload
+</pre>
+
+<h2>📌 Learning Goals</h2>
+
+<ul>
+<li>Building RESTful APIs with FastAPI</li>
+<li>Working with relational databases</li>
+<li>Understanding backend architecture</li>
+<li>Implementing authentication systems</li>
+</ul>
+
+<h2>👩‍💻 Author</h2>
 
 <p>
-<a href="https://github.com/yourusername">
-<img src="https://img.shields.io/badge/-GitHub-181717?style=flat-square&logo=github" />
-</a>
-
-<a href="https://www.linkedin.com/in/yourusername">
-<img src="https://img.shields.io/badge/-LinkedIn-0077B5?style=flat-square&logo=linkedin" />
-</a>
-
-<a href="mailto:youremail@example.com">
-<img src="https://img.shields.io/badge/-Email-D14836?style=flat-square&logo=gmail&logoColor=white" />
-</a>
+Mariam — Computer / Software Engineering student interested in backend development,
+computer networks, and machine learning.
 </p>
-
-<img align="right" src="https://media1.giphy.com/media/13HgwGsXF0aiGY/giphy.gif" width="250"/>
-
-<h2>⚡ Quick Facts</h2>
-
-<ul>
-<li>🔭 Currently working on: <strong>network simulations (Cisco Packet Tracer) & web-based systems</strong></li>
-<li>🧠 Interested in: <strong>computer networks, cybersecurity basics, backend systems, and AI/ML</strong></li>
-<li>💻 Projects include: <strong>PHP + SQL web apps, network design projects, and small ML experiments</strong></li>
-<li>🛠️ Tools I use: <strong>Python, PHP, MySQL, Cisco Packet Tracer, Linux basics</strong></li>
-<li>🌍 Fun fact: I can't stop learning =)</li>
-</ul>
-
-<h2>🚀 Skills & Tools</h2>
-
-<p align="left">
-<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" width="25"/>
-<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/php/php-original.svg" width="25"/>
-<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original-wordmark.svg" width="25"/>
-<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" width="25"/>
-<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/cplusplus/cplusplus-original.svg" width="25"/>
-<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/linux/linux-original.svg" width="25"/>
-<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/docker/docker-original.svg" width="25"/>
-</p>
-
-<h2>📌 Focus Areas</h2>
-
-<ul>
-<li>Computer Networks)</li>
-<li>Backend Development (PHP, SQL, APIs)</li>
-<li>Database Design (relational schemas, optimization basics)</li>
-<li>Machine Learning basics (CNN, MobileNetV2 concepts)</li>
-</ul>
